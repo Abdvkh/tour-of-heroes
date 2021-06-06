@@ -4,7 +4,7 @@ import { Observable, of } from 'rxjs';
 import { Hero } from './Hero';
 import { HEROES } from './mock-heroes';
 import { MessageService } from './message.service';
-import {HttpClient} from '@angular/common/http';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {catchError, tap} from 'rxjs/operators';
 
 @Injectable({
